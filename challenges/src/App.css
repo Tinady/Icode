@@ -11,7 +11,7 @@ body{
   justify-content: center;
   align-items: center;
   margin-top: 300px;
-  background-color: white;
+  
   
 }
 
@@ -20,13 +20,27 @@ body{
    height: 50px;
    width: 500px;
 
+
 }
 
 .search-paragraph{
   position: absolute;
-  left: ;
+  right: 295px;
+  margin-right: 0;
 }
 
 .search-btn{
    position: absolute;
+   background-color: rgb(57, 57, 225);
+   color: white;
+   height: 50px;
+   width: 80px;
+   right: 178px;
+   margin-right: 0px;
+}
+
+.search-btn:hover{
+  background-color: rgb(145, 145, 247);
+  color: rgb(4, 1, 1);
+
 }
