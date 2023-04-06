@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: aliceblue;
+}
+
+.img-search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+  background-color: white;
+  
+}
+
+.search-input{
+   position: relative;
+   height: 50px;
+   width: 500px;
+
+}
+
+.search-paragraph{
+  position: absolute;
+  left: ;
+}
+
+.search-btn{
+   position: absolute;
+}
