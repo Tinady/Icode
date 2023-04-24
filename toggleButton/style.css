@@ -1,7 +1,6 @@
 input[type="checkbox"].toggle{
-    opacity: 0;
-    position: absolute;
-    left: -9999;
+    display: none;
+    
     
 }
 input[type="checkbox"].toggle + label{
@@ -9,11 +8,7 @@ input[type="checkbox"].toggle + label{
     align-items: center ;
 }
 
-input[type="checkbox"].toggle:checked + label{
-    color: rgb(140, 34, 34);
-    position: relative;
 
-}
 
 input[type="checkbox"].toggle + label::before{
     background-color: rgb(151, 147, 147);
